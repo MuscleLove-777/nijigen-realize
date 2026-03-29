@@ -28,15 +28,7 @@ jobs:
           AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
           SITE_NAME: ${{ secrets.SITE_NAME }}
         working-directory: scripts
-        run: python3 main.py --keyword "コスプレ" --count 3
-
-      - name: Generate articles (アニコス)
-        env:
-          API_ID: ${{ secrets.API_ID }}
-          AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
-          SITE_NAME: ${{ secrets.SITE_NAME }}
-        working-directory: scripts
-        run: python3 main.py --keyword "アニコス" --count 2
+        run: python3 main.py --keyword "コスプレ" --count 1
 
       - name: Commit and push
         run: |
