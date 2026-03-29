@@ -12,9 +12,10 @@ buildExpired = false
 
 [sitemap]
   changefreq = "daily"
-  priority = 0.5
+  priority = 0.7
 
 [params]
+  canonicalURL = true
   env = "production"
   description = "コスプレ・アニメ系AV作品を毎日厳選。二次元キャラが三次元で蘇る興奮をサンプル動画付きで"
   author = "二次元嫁実写化計画"
