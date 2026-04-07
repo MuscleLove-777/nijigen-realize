@@ -12,7 +12,7 @@ buildExpired = false
 
 [services]
   [services.googleAnalytics]
-    ID = ""
+    ID = "G-DLJQ2ZR81Q"
 
 [sitemap]
   changefreq = "daily"
